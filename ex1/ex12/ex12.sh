@@ -2,7 +2,6 @@
 # Assert arguments passed.
 if [ -z "$1" ]
 then
-	echo "Please provide a directory to list."
 	exit
 fi
 #Initialize line counter.
