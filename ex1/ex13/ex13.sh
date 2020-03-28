@@ -2,11 +2,9 @@
 # Assert arguments passed.
 if [ -z "$1" ]
 then
-	echo "Please provide a directory to list."
 	exit
 elif [ -z "$2" ]
 then
-	echo "Please provide a file to search."
 	exit
 fi
 #Iterate through all files and subdirs of level 1.
